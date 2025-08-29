@@ -10,5 +10,7 @@
 - Set **Network Adapter** to "Host-Only Adapter" (so both VMs can talk to each other, but no internet risk) 
 
 ## Lab Architecture Diagram
-See: [lab-architecture1](./metaspoitable ss 2.png)
-      [lab-architecture2](./ss1.png)
+See:
+[lab-architecture1](./metaspoitable%20ss%202.png)  
+[lab-architecture2](./ss1.png)
+
