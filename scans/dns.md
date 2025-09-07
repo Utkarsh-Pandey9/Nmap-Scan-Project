@@ -4,6 +4,8 @@
 DNS (Domain Name System) resolution translates human-readable domain names (like `facebook.com`) into IP addresses.  
 Nmap offers options to customize DNS servers, skip DNS resolution, or bypass host discovery. These options are useful for faster scanning, avoiding detection, or working around blocked services.
 
+The -n flag skips DNS resolution, and -Pn skips host discovery.
+
 ---
 
 ## 🔹 Commands Used
@@ -16,7 +18,8 @@ nmap -n facebook.com
 
 nmap -n -Pn facebook.com ```
 
-### 2. Skipping DNS Resolution
+
+
 
 
 
