@@ -12,3 +12,11 @@ Nmap offers options to customize DNS servers, skip DNS resolution, or bypass hos
 ```bash
 nmap facebook.com --dns-servers 1.1.1.1
 
+nmap -n facebook.com
+
+nmap -n -Pn facebook.com ```
+
+### 2. Skipping DNS Resolution
+
+
+
