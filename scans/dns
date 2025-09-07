@@ -12,16 +12,3 @@ Nmap offers options to customize DNS servers, skip DNS resolution, or bypass hos
 ```bash
 nmap facebook.com --dns-servers 1.1.1.1
 
-
-
-2. Skipping DNS Resolution
-nmap -n facebook.com
-
-The -n option tells Nmap not to perform reverse DNS lookups, so only IP addresses are shown.
-This makes the scan faster and avoids unnecessary DNS queries.
-
-3. Skipping DNS + Assuming Host is Up
-nmap -n -Pn facebook.com
-
-
-The -Pn option tells Nmap to treat the host as up, even if it does not respond to ping/ICMP probes.
